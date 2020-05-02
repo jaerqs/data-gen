@@ -1,0 +1,22 @@
+{
+  "name": "data-gen",
+  "version": "1.0.0",
+  "description": "Seeding DB for project part 4",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run nodemon",
+    "nodemon": "nodemon --exec npm run node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.7"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0"
+  }
+}

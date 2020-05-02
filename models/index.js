@@ -1,0 +1,12 @@
+module.exports.building = require("./building.js");
+module.exports.classTitle = require("./class-title.js");
+module.exports.collegeDepartmentBuilding = require("./college-department-building.js");
+module.exports.collegeDepartmentCourse = require("./college-department-course.js");
+module.exports.collegeDepartment = require("./college-department.js");
+module.exports.coursePrerequisite = require("./course-prerequisite.js");
+module.exports.course = require("./course.js");
+module.exports.professor = require("./professor.js");
+module.exports.room = require("./room.js");
+module.exports.studentCourse = require("./student-course.js");
+module.exports.student = require("./student.js");
+module.exports.enroll = require("./enroll.js");
